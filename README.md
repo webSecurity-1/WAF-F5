@@ -97,6 +97,8 @@ Over time, the anatomy of web applications has evolved significantly, driven by 
 BIG-IP ASM stands for BIG-IP Application Security Manager. It is a module or component of the F5 Networks' BIG-IP product suite, which provides advanced application security and protection against a wide range of attacks. BIG-IP ASM is designed to safeguard web applications from vulnerabilities, such as SQL injection, cross-site scripting (XSS), and remote file inclusion, among others.
 </p>
 
+<hr />
+
 ## Using BIG-IP ASM to protect web applications
 
 - Buffer Overflow
@@ -121,6 +123,7 @@ BIG-IP ASM provides a wide range of features to protect web applications from va
 - <b>SSL/TLS Offloading</b>: BIG-IP ASM provides SSL/TLS offloading to offload SSL/TLS processing from web servers to BIG-IP ASM, which helps improve performance and scalability.
 
 - <b>Geolocation Enforcement</b>: BIG-IP ASM provides geolocation enforcement to restrict access to web applications based on the user's location.
+
 <hr >
 
 ## Why ASM
@@ -135,13 +138,13 @@ BIG-IP ASM provides a wide range of features to protect web applications from va
 
 ## ASM vs Traditional Security Devices
 
-<img src="https://i.ibb.co/0Zgtnpt/compare.webp" alt="compare" border="0">
+<img src="https://i.ibb.co/0Zgtnpt/compare.webp" alt="compare" border="0" style="max-width: 100%">
 
 <hr />
 
 ## Types of Computer Security
 
-<img src="https://i.ibb.co/K6tLDF1/black-white-lists.png" alt="black-white-lists" border="0">
+<img src="https://i.ibb.co/K6tLDF1/black-white-lists.png" alt="black-white-lists" border="0" style="max-width: 100%">
 
 <hr />
 
