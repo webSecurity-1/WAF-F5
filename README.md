@@ -43,7 +43,6 @@ It's important to note that WAFs use a combination of these methods to provide c
 
 > ## Let's Start with F5
 
-
 ## What is F5?
 
 <p align="justify">
@@ -55,10 +54,10 @@ F5 Networks is a company that specializes in providing various networking and se
 ## F5 Full Proxy Architecture
 
 <img src="https://i.ibb.co/vPWM3nM/1.png" alt="1" border="0">
-
+<img src="https://i.ibb.co/tbS45BP/Proxy-Arch2.png" alt="Proxy-Arch2" border="0">
 <hr />
 
-## Anatomy of Web Application 
+## Anatomy of Web Application
 
 <p align="justify">
 In the past, websites were primarily static, meaning that their content remained fixed and unchanged until manually updated by the website owner. These static websites consisted of HTML files that were stored on a server and served to users' web browsers upon request. While static websites served their purpose of providing information, they lacked interactivity and dynamic functionality.
@@ -71,23 +70,19 @@ The anatomy of a web application consists of several key components that work to
 
 - <b>Back-end:</b> The back-end comprises the server-side components that handle the business logic and data processing. It involves programming languages such as Python, JavaScript (Node.js), Ruby, or Java, along with frameworks like Django, Flask, Express.js, Ruby on Rails, or Spring.
 
-
 - <b>Database:</b> Web applications often require persistent data storage. Databases such as MySQL, PostgreSQL, MongoDB, or Redis are commonly used to store and retrieve data on the server-side. They enable efficient data management and provide structured access to information.
 
-
 Over time, the anatomy of web applications has evolved significantly, driven by advancements in technology, frameworks, and development practices. The shift from static websites to dynamic web applications has revolutionized the way we interact with online content, enabling sophisticated features, real-time updates, and personalized experiences.
+
 </p>
 
-
 <img src="https://i.ibb.co/p2zJ2wR/1.jpg" alt="1" border="0">
-
 
 <hr />
 
 ### SQL injection and cross site scripting remain the most critical web vulnerabilities
 
 > ## So Let's go with BIG-IP ASM
-
 
 <hr />
 
@@ -150,15 +145,13 @@ BIG-IP ASM provides a wide range of features to protect web applications from va
 
 ## ASM Policy Building
 
- A security policy is a set of rules that define how BIG-IP ASM should protect a web application. It consists of security checks, which are used to detect and prevent attacks against the web application. BIG-IP ASM provides a wide range of security checks to protect web applications from various types of attacks, such as SQL injection, cross-site scripting (XSS), and remote file inclusion, among others.
-
+A security policy is a set of rules that define how BIG-IP ASM should protect a web application. It consists of security checks, which are used to detect and prevent attacks against the web application. BIG-IP ASM provides a wide range of security checks to protect web applications from various types of attacks, such as SQL injection, cross-site scripting (XSS), and remote file inclusion, among others.
 
 - <b>Learning Settings</b>: Learning settings define how BIG-IP ASM should learn the web application. BIG-IP ASM provides a wide range of learning settings to learn the web application, such as learning the parameters, learning the URLs, or learning the cookies, among others.
 
 - <b>Blocking Settings</b>: Blocking settings define how BIG-IP ASM should block malicious requests. BIG-IP ASM provides a wide range of blocking settings to block malicious requests, such as blocking the request, blocking the session, or blocking the IP address, among others.
 
 - <b>Whitelist Settings</b>: Whitelist settings define how BIG-IP ASM should whitelist certain requests. BIG-IP ASM provides a wide range of whitelist settings to whitelist certain requests, such as whitelisting the IP address, whitelisting the URL, or whitelisting the parameter, among others.
-
 
 - <b>Reporting Settings</b>: Reporting settings define how BIG-IP ASM should report security events. BIG-IP ASM provides a wide range of reporting settings to report security events, such as sending an email notification, sending an SNMP trap, or logging the event, among others.
 
